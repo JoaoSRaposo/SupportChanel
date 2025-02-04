@@ -25,6 +25,7 @@ body:
       options:
         - Nexcloud plugin
         - HejBit
+      default: 0
   - type: textarea
     id: what-experience
     attributes:
