@@ -13,7 +13,7 @@ body:
   - type: dropdown
     id: project
     attributes:
-      label: Choose the project in which you want to add an idea.
+      label: Choose the app in which you want to add an idea.
       options:
         - Hejbit App
         - Hejbit NextCloud Plug-in
