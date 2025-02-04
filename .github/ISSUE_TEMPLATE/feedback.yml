@@ -15,8 +15,8 @@ body:
     attributes:
       label: Choose the project in which you want to give your feedback.
       options:
-        - Nexcloud plugin
-        - HejBit
+        - Hejbit App
+        - Hejbit NextCloud Plug-in
       default: 0
   - type: textarea
     id: what-idea
