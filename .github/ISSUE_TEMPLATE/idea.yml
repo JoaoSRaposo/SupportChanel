@@ -2,7 +2,7 @@ name: 💡 I have an idea
 description: File a idea report.
 title: "[Idea]: "
 labels: [idea]
-projects: ["metaprovide/plugin", "metaprovide/HejBit"]
+projects: ["JoaoSRaposo/projects/3"]
 assignees:
   - JoaoSRaposo
 body:
