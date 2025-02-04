@@ -1,0 +1,25 @@
+name: 💡 I have an idea
+description: File a idea report.
+title: "[Idea]: "
+labels: [idea, triage]
+projects: ["metaprovide/plugin", "metaprovide/HejBit"]
+assignees:
+  - JoaoSRaposo
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this idea report! We value your feedback.
+  - type: dropdown
+    id: project
+    attributes:
+      label: Choose the project in which you want to add an idea.
+      options:
+        - Nexcloud plugin
+        - HejBit
+      default: 0
+  - type: textarea
+    id: what-idea
+    attributes:
+      label: Explain us your idea.
+      description: A concise description of your idea(s).
