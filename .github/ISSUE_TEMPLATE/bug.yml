@@ -14,14 +14,10 @@ body:
   attributes:
     label: Current Behavior
     description: A concise description of what you're experiencing.
-  validations:
-    required: false
 - type: textarea
   attributes:
     label: Expected Behavior
     description: A concise description of what you expected to happen.
-  validations:
-    required: false
 - type: textarea
   attributes:
     label: Steps To Reproduce
@@ -31,18 +27,12 @@ body:
       2. With this config...
       3. Run '...'
       4. See error...
-    validations:
-      required: false
 - type: textarea
   attributes:
     label: Environment
     description: Examples of environment (e.g. OS, browser version, etc.).
-    validations:
-      required: false
 - type: textarea
   attributes:
     label: Anything else?
     desciption: |
       Links? References? Anything that will give us more context about the issue you are encountering!
-    validations:
-      required: false
