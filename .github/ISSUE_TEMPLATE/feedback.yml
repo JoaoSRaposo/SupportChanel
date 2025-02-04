@@ -13,7 +13,7 @@ body:
   - type: dropdown
     id: project
     attributes:
-      label: Choose the project in which you want to give your feedback.
+      label: Choose the app in which you want to give your feedback.
       options:
         - Hejbit App
         - Hejbit NextCloud Plug-in
