@@ -1,38 +1,58 @@
-name: Bug Report
-description: File a bug/issue
-title: "[BUG] <title>"
-labels: [Bug, Needs Triage]
+name: 👾 Report
+description: File a bug/issue report.
+title: "[Bug]: "
+labels: [bug, triage]
+projects: ["metaprovide/plugin", "metaprovide/HejBit"]
+assignees:
+  - JoaoSRaposo
 body:
-- type: checkboxes
-  attributes:
-    label: Is there an existing issue for this?
-    description: Please search to see if an issue already exists for the bug you encountered.
-    options:
-    - label: I have searched the existing issues
-      required: true
-- type: textarea
-  attributes:
-    label: Current Behavior
-    description: A concise description of what you're experiencing.
-- type: textarea
-  attributes:
-    label: Expected Behavior
-    description: A concise description of what you expected to happen.
-- type: textarea
-  attributes:
-    label: Steps To Reproduce
-    description: Steps to reproduce the behavior.
-    placeholder: |  
-      1. In this environment...
-      2. With this config...
-      3. Run '...'
-      4. See error...
-- type: textarea
-  attributes:
-    label: Environment
-    description: Examples of environment (e.g. OS, browser version, etc.).
-- type: textarea
-  attributes:
-    label: Anything else?
-    description: |
-      Links? References? Anything that will give us more context about the issue you are encountering!
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report! We value your feedback.
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Is there an existing issue for this?
+      description: Please search to see if an issue already exists for the bug you encountered.
+      options:
+      - label: I have searched the existing issues
+        required: true
+  - type: dropdown
+    id: project
+    attributes:
+      label: Choose the project in which the isue occurs.
+      options:
+        - Nexcloud plugin
+        - HejBit
+  - type: textarea
+    id: what-experience
+    attributes:
+      label: Current Behavior
+      description: A concise description of what you're experiencing.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Expected Behavior
+      description: A concise description of what you expected to happen.
+  - type: textarea
+    id: reproduce-behavior
+    attributes:
+      label: Steps To Reproduce
+      description: Steps to reproduce the behavior.
+      placeholder: |  
+        1. In this environment...
+        2. With this config...
+        3. Run '...'
+        4. See error...
+  - type: textarea
+    id: envioronment
+    attributes:
+      label: Environment
+      description: Examples of environment (e.g. OS, browser version, etc.).
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell  
