@@ -23,8 +23,8 @@ body:
     attributes:
       label: Choose the project in which the isue occurs.
       options:
-        - Nexcloud plugin
-        - HejBit
+        - Hejbit App
+        - Hejbit NextCloud Plug-in
       default: 0
   - type: textarea
     id: what-experience
