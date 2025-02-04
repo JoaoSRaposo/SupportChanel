@@ -2,7 +2,7 @@ name: 🐞 I found an issue
 description: File a bug/issue report.
 title: "[Bug]: "
 labels: [bug, triage]
-projects: ["metaprovide/plugin", "metaprovide/HejBit"]
+projects: ["Recognize"]
 assignees:
   - JoaoSRaposo
 body:
