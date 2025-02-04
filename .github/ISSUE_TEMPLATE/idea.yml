@@ -2,9 +2,9 @@ name: 💡 I have an idea
 description: File a idea report.
 title: "[Idea]: "
 labels: [idea]
-projects: ["JoaoSRaposo/projects/3"]
+projects: ["joaosraposo/3"]
 assignees:
-  - JoaoSRaposo
+  - joaosraposo
 body:
   - type: markdown
     attributes:
