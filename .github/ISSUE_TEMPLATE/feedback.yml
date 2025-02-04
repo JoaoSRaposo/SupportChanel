@@ -1,0 +1,25 @@
+name: 😁 General feedback
+description: File a feedback report.
+title: "[Feedback]: "
+labels: [feedback, triage]
+projects: ["metaprovide/plugin", "metaprovide/HejBit"]
+assignees:
+  - JoaoSRaposo
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this general feedback report! We value your feedback.
+  - type: dropdown
+    id: project
+    attributes:
+      label: Choose the project in which you want to give your feedback.
+      options:
+        - Nexcloud plugin
+        - HejBit
+      default: 0
+  - type: textarea
+    id: what-idea
+    attributes:
+      label: General Feedback
+      description: Your feedback goes here!
