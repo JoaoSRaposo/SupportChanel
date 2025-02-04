@@ -1,7 +1,7 @@
 name: 💡 I have an idea
 description: File a idea report.
 title: "[Idea]: "
-labels: [idea, triage]
+labels: [idea]
 projects: ["metaprovide/plugin", "metaprovide/HejBit"]
 assignees:
   - JoaoSRaposo
