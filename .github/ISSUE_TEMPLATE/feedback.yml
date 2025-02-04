@@ -2,7 +2,7 @@ name: 😁 General feedback
 description: File a feedback report.
 title: "[Feedback]: "
 labels: [feedback]
-projects: ["metaprovide/plugin", "metaprovide/HejBit"]
+projects: ["joaosraposo/3"]
 assignees:
   - JoaoSRaposo
 body:
