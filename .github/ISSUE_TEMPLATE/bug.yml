@@ -1,0 +1,18 @@
+name: Bug Report
+description: Use this template to report bugs
+labels: bug
+assignees: ''
+body:
+  - type: markdown
+    attributes:
+      value: '## Descrição do problema'
+  - type: input
+    attributes:
+      label: 'Qual é o erro?'
+      description: 'Explique o erro que você encontrou.'
+      required: true
+  - type: input
+    attributes:
+      label: 'Como reproduzir o erro'
+      description: 'Descreva os passos para reproduzir o erro.'
+      required: true
