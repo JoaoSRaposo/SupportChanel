@@ -1,6 +1,6 @@
 # SupportChannel Repository
 
-This repository contains two projects:
+This repository contains two Apps:
 
 1. **Hejbit App**
 2. **Hejbit NextCloud Plugin**
