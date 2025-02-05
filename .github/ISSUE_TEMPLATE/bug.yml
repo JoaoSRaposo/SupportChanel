@@ -2,7 +2,7 @@ name: 🐞 I found an issue
 description: File a bug/issue report.
 title: "[Bug]: "
 labels: [bug, triage]
-projects: ["JoaoSRaposo/6"]
+projects: ["octo-org/1", "octo-org/44"]
 assignees:
   - JoaoSRaposo
 body:
