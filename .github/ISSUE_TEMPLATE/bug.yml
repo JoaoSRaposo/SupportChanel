@@ -1,7 +1,7 @@
 name: 🐞 I found an issue
 description: File a bug/issue report.
 title: "[Bug]: "
-labels: [bug, triage]
+labels: [bug]
 projects: ["JoaoSRaposo/6"]
 assignees:
   - JoaoSRaposo
